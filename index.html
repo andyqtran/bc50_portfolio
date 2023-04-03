@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AQT Portfolio</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+
+        <!-- Font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous"
+        />
+
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <!-- Brand -->
+                <a class="header__logo navbar-brand" href="#">
+                    <i class="fa fa-dice-d20"></i>
+                    <span>CyberPortfolio</span>
+                </a>
+
+                <!-- Toggler/collapsible Button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapsibleNavbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="header__navbar navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#!">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Service </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Carousel -->
+        <div class="carousel">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li
+                        data-target="#carousel"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption">
+                            <div class="carousel__thumb">
+                                <img
+                                    class="img-fluid"
+                                    src="./img/01-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <div class="carousel__thumb">
+                                <img
+                                    class="img-fluid"
+                                    src="./img/02-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <div class="carousel__thumb">
+                                <img
+                                    class="img-fluid"
+                                    src="./img/03-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a
+                    class="carousel-control-prev"
+                    href="#carousel"
+                    data-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carousel"
+                    data-slide="next"
+                >
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Project -->
+        <section class="project container py-5">
+            <div class="project__title title">
+                <h2>I Love What I Do</h2>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Nulla mollis dapibus nunc,
+                    ut rhoncus turpis sodales quis. Integer sit amet mattis
+                    quam.Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Nulla mollis dapibus nunc
+                </p>
+            </div>
+
+            <div class="project__content">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            data-toggle="pill"
+                            href="#allProject"
+                            >All Projects</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            data-toggle="pill"
+                            href="#illustration"
+                            >Illustration</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            data-toggle="pill"
+                            href="#photography"
+                            >Photography</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#website"
+                            >Website</a
+                        >
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container active" id="allProject">
+                        <div class="row">
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g2.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g3.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g4.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g5.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g6.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="illustration">
+                        <div class="row">
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g2.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g3.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="photography">
+                        <div class="row">
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g2.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="website">
+                        <div class="row">
+                            <div class="col-6 col-md-4 my-3">
+                                <div class="card project__card">
+                                    <img
+                                        class="card-img-top"
+                                        src="./img/g1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            Apologetic robot holding flowers
+                                        </h4>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service -->
+        <section class="service py-5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="service__title title">
+                    <h2>I'm Available For Hire</h2>
+                    <p>
+                        Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Nulla mollis dapibus
+                        nunc, ut rhoncus turpis sodales quis. Integer sit amet
+                        mattis quam.
+                    </p>
+                </div>
+
+                <div class="row service__content">
+                    <div class="col-12 col-lg-4 service__col">
+                        <div class="service__item">
+                            <i class="fa fa-paint-brush"></i>
+                            <h3>Design</h3>
+                            <p>
+                                Vestibulum ante ipsum primis in faucibus orci
+                                luctus et ultrices posuere cubilia Curae; Nulla
+                                mollis dapibus nunc
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 service__col">
+                        <div class="service__item">
+                            <i class="fa fa-paint-brush"></i>
+                            <h3>Marketing</h3>
+                            <p>
+                                Vestibulum ante ipsum primis in faucibus orci
+                                luctus et ultrices posuere cubilia Curae; Nulla
+                                mollis dapibus nunc
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 service__col">
+                        <div class="service__item">
+                            <i class="fa fa-paint-brush"></i>
+                            <h3>Photography</h3>
+                            <p>
+                                Vestibulum ante ipsum primis in faucibus orci
+                                luctus et ultrices posuere cubilia Curae; Nulla
+                                mollis dapibus nunc
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script> -->
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
